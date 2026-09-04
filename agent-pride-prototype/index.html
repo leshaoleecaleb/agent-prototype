@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Agent Pride Prototype</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Slide navigation">
+        <div class="brand">
+          <img src="assets/pride-mark.svg" alt="" class="brand-mark">
+          <div>
+            <p class="eyebrow">Board Deck</p>
+            <h1>Agent Pride Prototype</h1>
+          </div>
+        </div>
+        <nav id="slideNav" class="slide-nav"></nav>
+      </aside>
+
+      <main class="deck" aria-live="polite">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Inclusive Financial Services in Africa</p>
+            <strong id="slideTitle">Agent Pride Prototype</strong>
+          </div>
+          <div class="toolbar" aria-label="Presentation controls">
+            <a class="icon-button" href="agent-pride-prototype.zip" download title="Download source files" aria-label="Download source files">
+              <span>DL</span>
+            </a>
+            <button class="icon-button" id="printButton" type="button" title="Print or save as PDF" aria-label="Print or save as PDF">
+              <span>PDF</span>
+            </button>
+            <button class="icon-button" id="prevButton" type="button" title="Previous slide" aria-label="Previous slide">
+              <span>&lt;</span>
+            </button>
+            <button class="icon-button" id="nextButton" type="button" title="Next slide" aria-label="Next slide">
+              <span>&gt;</span>
+            </button>
+          </div>
+        </header>
+
+        <section class="slide-frame">
+          <article id="slide" class="slide"></article>
+        </section>
+        <section id="printDeck" class="print-deck" aria-hidden="true"></section>
+
+        <footer class="statusbar">
+          <span id="slideCounter">Slide 1 of 10</span>
+          <div class="progress-track" aria-hidden="true">
+            <span id="progressBar" class="progress-bar"></span>
+          </div>
+          <span>Responsible AI orchestration</span>
+        </footer>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Agent Pride mark">
+  <rect width="64" height="64" rx="12" fill="#0b4668"/>
+  <circle cx="23" cy="28" r="8" fill="#c99422"/>
+  <circle cx="41" cy="28" r="8" fill="#087f7a"/>
+  <path d="M16 44c7-7 25-7 32 0" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  <path d="M32 11l5 10H27l5-10z" fill="#fff"/>
+</svg>
